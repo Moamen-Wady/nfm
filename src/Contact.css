@@ -1,0 +1,138 @@
+.contactmap {
+  width: 85%;
+  margin: auto;
+}
+.contactmap iframe {
+  width: 100%;
+  height: calc(var(--r5) * 5);
+  border: 1px solid darkcyan;
+  border-radius: var(--r08);
+  box-shadow: var(--r05) var(--r05) var(--r05) darkgray;
+}
+.contactinfocont {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: var(--r2);
+  margin-bottom: var(--r2);
+  overflow: visible;
+}
+.contactinfo {
+  width: 30%;
+  background-color: rgb(48, 71, 87);
+  color: white;
+  padding: var(--r05);
+  border-radius: var(--r08);
+}
+.contactinfo > h1 {
+  text-align: center;
+  font-size: var(--r2);
+  font-family: "Raleway", sans-serif;
+  /* margin-left: var(--r1); */
+  margin-bottom: var(--r05);
+  margin-top: var(--r05);
+  padding: 0;
+}
+.contactinfo h2 {
+  font-size: var(--r105);
+  width: 100%;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: var(--r05);
+  margin-top: 0;
+}
+.contactinfo > div {
+  width: 80%;
+  margin: auto;
+  border-top: 1px outset whitesmoke;
+  padding: var(--r05);
+}
+.contactinfo > div > a:hover {
+  color: blue;
+}
+.contactinfo > div > a {
+  width: 100%;
+  font-size: var(--r1);
+  display: block;
+  margin: 0;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+  color: white;
+}
+.aleft {
+  text-align: left;
+}
+.acent {
+  text-align: center;
+}
+.contactinfo > div > img {
+  width: 10%;
+  filter: invert(1);
+  float: left;
+  margin: var(--r1);
+  margin-top: 0;
+  display: inline;
+  vertical-align: super;
+}
+.contactcform {
+  width: 60%;
+}
+.contactform {
+  height: calc(var(--r5) * 5);
+  display: block;
+  width: 95%;
+  background-color: white;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 2%;
+  border: 1px solid #00395f;
+  margin: auto;
+  padding: var(--r1);
+  position: relative;
+}
+.contactform input {
+  display: inline-block;
+  width: 40%;
+  margin: var(--r05);
+  margin-top: var(--r1);
+  margin-bottom: var(--r1);
+  background-color: rgb(48, 71, 87, 0.5);
+  color: black;
+  height: max-content;
+  font-size: var(--r101);
+  border: 1px solid grey;
+  padding: 1%;
+}
+.contactform textarea {
+  display: block;
+  padding: 1%;
+  width: 80%;
+  margin: auto;
+  margin-top: 1%;
+  background-color: rgb(48, 71, 87, 0.5);
+  color: black;
+  height: calc(var(--r2) + var(--r5));
+  font-size: var(--r101);
+}
+.contactform input:nth-last-child(1) {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  width: fit-content;
+  height: max-content;
+  padding: 1%;
+  background-color: rgb(48, 71, 87, 0.5);
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  border-radius: 3%;
+  color: black;
+}
+.contactform input:hover {
+  background-color: #a0aec9;
+}

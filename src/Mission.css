@@ -1,0 +1,45 @@
+.global-inline {
+  margin: auto;
+  margin-bottom: var(--r1);
+  display: block;
+  width: 90%;
+}
+.mis-head {
+  margin: auto;
+  text-align: justify;
+  width: 50%;
+}
+.misvalues {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: var(--r2);
+  margin-bottom: var(--r2);
+}
+.misvalues > div:first-child {
+  width: 50%;
+  height: calc(var(--r5)*3);
+}
+.misvalues > div:nth-child(2) {
+  width: 40%;
+}
+.misvalues h1 {
+  color: black;
+  font-weight: bold;
+  font-size: var(--r105);
+}
+.misvalues p {
+  color: #232323;
+  font-size: var(--r102);
+}
+#br,
+#bl,
+#tl,
+#tr,
+#mr,
+#ml {
+  cursor: pointer;
+}

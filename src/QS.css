@@ -1,0 +1,60 @@
+.qsx {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  direction: rtl;
+}
+.qsx > div {
+  width: 46%;
+  text-align: center;
+}
+.qsx > div > img {
+  max-width: 100%;
+  margin-bottom: var(--r2);
+  border: 1px solid darkcyan;
+  border-radius: var(--r08);
+  box-shadow: var(--r05) var(--r05) var(--r05) darkgray;
+}
+.qsx > div > p b {
+  font-size: var(--r2);
+  color: rgb(57, 172, 233);
+}
+.qsx strong {
+  font-size: calc(var(--r105) * 0.8);
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  max-width: 60%;
+}
+.qsx strong > p {
+  margin-top: var(--r05);
+}
+.qs {
+  width: 40%;
+  font-size: calc(var(--r1));
+  text-align: justify;
+  direction: ltr;
+}
+.qs > li {
+  margin-bottom: var(--r105);
+  margin-top: var(--r105);
+}
+.qs-1 {
+  text-align-last: center;
+}
+.underimg {
+  font-size: var(--r1);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align-last: center;
+  text-align: center;
+  display: block;
+  margin: auto;
+  max-width: 65%;
+  direction: ltr;
+}
+.qsx > div > div {
+  display: contents;
+}

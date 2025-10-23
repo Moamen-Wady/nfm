@@ -1,0 +1,115 @@
+#overviewer {
+  width: 70%;
+  margin: auto;
+  margin-bottom: calc(var(--r2));
+  padding: var(--r05);
+}
+.ov-logo {
+  max-width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: var(--r2);
+}
+.ov-h1 {
+  font-weight: bold;
+  color: rgb(57, 172, 233);
+  text-align: center;
+  font-size: var(--r105);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: auto;
+}
+.ov-text {
+  color: rgb(27, 24, 24);
+  text-align: justify;
+  font-size: var(--r1);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: inherit;
+  margin: auto;
+  text-align-last: center;
+}
+.shb {
+  display: block;
+  margin: auto;
+  width: 90%;
+  margin-bottom: var(--r3);
+}
+.shb-hdr {
+  display: block;
+  margin: auto;
+  font-size: var(--r105);
+  margin-bottom: var(--r2);
+  margin-top: var(--r2);
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-shadow: 4px 4px 4px darkgray;
+}
+.shb img {
+  max-width: 19%;
+  flex: 1;
+  object-fit: contain;
+  border: 1px solid darkcyan;
+  border-radius: var(--r08);
+  box-shadow: var(--r05) var(--r05) var(--r05) darkgray;
+}
+.shb-g {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.clients {
+  display: grid;
+  width: 50%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 0;
+  margin: auto;
+  max-height: 100%;
+}
+.clients img {
+  width: var(--r3);
+  height: var(--r3);
+  margin: 0;
+  display: inline-block;
+}
+.triconz {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.triconz > div {
+  width: 30%;
+  flex: 1;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: var(--r2);
+}
+.tcimg {
+  display: block;
+  width: 100%;
+  margin-top: var(--r3);
+  margin-bottom: var(--r3);
+}
+.tcimg img {
+  width: 60%;
+  aspect-ratio: 2;
+}
+.triconz a {
+  text-decoration: none;
+  display: block;
+  margin: auto;
+  width: fit-content;
+  background-color: rgb(48, 71, 87);
+  color: white;
+  padding: var(--r1);
+  border-radius: var(--r08);
+}

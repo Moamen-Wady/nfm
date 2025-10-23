@@ -1,0 +1,59 @@
+.history {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: var(--r1);
+  margin: var(--r1);
+  height: max-content;
+  flex-wrap: wrap;
+}
+.ntbk {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  height: max-content;
+}
+.ntbk .p1 {
+  font-size: var(--r103);
+  color: black;
+  text-align: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: var(--r1);
+  z-index: 1;
+}
+.ntbk .p2 {
+  color: black;
+  text-align: left;
+  font-size: var(--r2);
+  font-family:"Raleway", sans-serif;
+  margin-left: var(--r1);
+  z-index: 1;
+  font-weight: bold;
+}
+.ntbk img {
+  text-align: center;
+  z-index: -1;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: calc(var(--r5) * 4);
+  height: calc(var(--r5) * 4);
+  opacity: 0.35;
+}
+.his-imgs {
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.his-imgs img {
+  max-width: 40%;
+  aspect-ratio: 1;
+  margin-top: var(--r1);
+  border: 1px solid darkcyan;
+  border-radius: var(--r08);
+  box-shadow: var(--r05) var(--r05) var(--r05) darkgray;
+}

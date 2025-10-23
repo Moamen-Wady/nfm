@@ -1,0 +1,215 @@
+.ulcont {
+  width: 100%;
+  margin: auto;
+  padding: var(--r05) 0;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-start;
+  z-index: 99999999999;
+}
+.main {
+  max-width: calc((var(--r5) * 2) + var(--r1));
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  offset: 0;
+  width: fit-content;
+  transition: all ease-in-out;
+  z-index: 500;
+}
+.main button > img {
+  width: 19%;
+  display: inline;
+}
+#haha {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+#haha:hover {
+  background-color: rgb(48, 71, 87);
+}
+#haha button:hover {
+  background-color: rgb(48, 71, 87);
+}
+#view,
+#hide {
+  padding: var(--r05);
+  display: block;
+  margin: auto;
+}
+.n a {
+  font-size: var(--r1);
+  display: block;
+  color: black;
+  text-align: center;
+  padding: var(--r105);
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.n button {
+  all: unset;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: var(--r105);
+  text-decoration: none;
+  font-size: var(--r1);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.n:hover {
+  background-color: rgb(48, 71, 87);
+  text-decoration: none;
+}
+.n a:hover {
+  background-color: rgb(48, 71, 87);
+  text-decoration: none;
+  color: white;
+}
+.n button:hover {
+  background-color: rgb(48, 71, 87);
+  text-decoration: none;
+  color: white;
+}
+.n {
+  text-align: center;
+  background: white;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid white;
+  transition: display 1s ease-in-out;
+}
+#i1,
+#i2,
+#i3,
+#i4,
+#i5,
+#i6 {
+  display: none;
+}
+.about {
+  position: relative;
+}
+.aboutUs {
+  left: calc((var(--r5) * 2) + var(--r1));
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  top: 0;
+  text-align: center;
+  padding: 0;
+  border-radius: 12%;
+}
+.about:hover .aboutUs {
+  display: block;
+}
+.about:hover .aboutUs li {
+  width: calc((var(--r5) * 2) + var(--r1));
+  background-color: white;
+}
+.our {
+  position: relative;
+}
+.ourServices {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  top: 0;
+  left: calc((var(--r5) * 2) + var(--r1));
+  text-align: center;
+  padding: 0;
+  border-radius: 12%;
+  width: fit-content;
+}
+.our:hover .ourServices {
+  display: block;
+}
+.our:hover .ourServices li {
+  background-color: white;
+  width: calc((var(--r5) * 2) + var(--r1));
+}
+header {
+  display: block;
+  width: 100%;
+  height: calc(var(--r5) * 8);
+  margin-bottom: var(--r1);
+  padding: 0;
+}
+.hcont {
+  display: block;
+  width: 100%;
+  height: calc(var(--r5) * 8);
+  margin-bottom: var(--r05);
+  padding: 0;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+header .logo-container {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 25%;
+  font-size: var(--r2);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 400;
+}
+.logo-container p {
+  margin: 0;
+}
+.logo-container img {
+  width: 100%;
+  height: 100%;
+}
+header .xxx {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: back;
+  animation-duration: 15s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: back;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  width: 100%;
+  height: calc(var(--r5) * 8);
+}
+.an div:nth-child(2) {
+  animation-delay: 3s;
+}
+.an div:nth-child(3) {
+  animation-delay: 6s;
+}
+.an div:nth-child(4) {
+  animation-delay: 9s;
+}
+.an div:nth-child(5) {
+  animation-delay: 12s;
+}
+@keyframes back {
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,17 @@
+.cl-page {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.cl-page img {
+  width: 22%;
+  border: 1px solid darkcyan;
+  border-radius: var(--r08);
+  box-shadow: var(--r05) var(--r05) var(--r05) darkgray;
+  display: block;
+  margin: var(--r2) auto;
+}
